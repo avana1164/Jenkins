@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+  stage {
+    steps {
+      sh 'python3 --version'
+    }
+  }
+  stage('hello'){
+    steps {
+      sh 'python 3 Gold.py'
+    }
+  }
