@@ -6,7 +6,7 @@ pipeline {
         sh 'python3 --version'
       }
     }
-    stage('hello'){
+    stage('Gold'){
       steps {
         sh 'python3 Gold.py'
       }
